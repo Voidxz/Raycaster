@@ -42,8 +42,6 @@ local function Shader(Cast,Distance)
 	local Fog = (Distance/Dist) - 1
 	
 	if Normal.X == 0 then Normal = Vector3.new(.5,Normal.Y,Normal.Z) end
-	if Normal.Y == 0 then Normal = Vector3.new(Normal.X,.5,Normal.Z) end
-	if Normal.Z == 0 then Normal = Vector3.new(Normal.X,Normal.Y,.5) end
 	Normal = Vector3.new(math.abs(Normal.X),math.abs(Normal.Y),math.abs(Normal.Z))
 
 
