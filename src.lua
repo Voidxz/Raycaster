@@ -5,7 +5,7 @@ local Down = {}
 local LocomotionAmplitude = 8
 local RotationAmplitude = 2
 local Dist = 100
-local RayCount = 200
+local RayCount = 200 --Quality
 local Player = workspace:WaitForChild("Player")
 local PlayerA = game.Players.LocalPlayer
 local Frame
